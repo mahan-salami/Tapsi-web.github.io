@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+*{
+      font-family: KalamehWeb_Bold ;
+    src: url(KalamehWeb_Bold.ttf);
+}
+
+
+
+@font-face {
+    font-family: KalamehWeb_Bold ;
+    src: url(KalamehWeb_Bold.ttf);
+    font-weight: bolder;
+}
+
+
+@keyframes move-stripes {
+  from {
+    background-position: 0 0;
+
+  }
+  to {
+    background-position: 1000px 0; /* سرعت و جهت حرکت */
+  }
+}
+
+.animate-stripes {
+  background-image: repeating-linear-gradient(
+    -45deg,        /* زاویه خطوط کج */
+    rgba(255, 255, 255, 0.3) 0,
+    rgba(255, 255, 255, 0.3) 10px,
+    transparent 10px,
+    transparent 22px
+  );
+  background-size: 1000px 1000px;
+  animation: move-stripes 10s linear infinite; /* سرعت حرکت */
+}

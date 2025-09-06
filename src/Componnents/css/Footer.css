@@ -1,0 +1,50 @@
+  #icon a{
+    transition: 0.5s;
+  }
+  #icon a:hover{
+    transition: 0.5s;
+    color: hsl(23, 91%, 60%);
+
+}
+#tapsi ul li a{
+  transition: 0.3s;
+}
+#tapsi ul li a:hover {
+    transition: 0.3s;
+    color: hsl(23, 91%, 60%);
+}
+
+
+#mosaf ul li a{
+transition: 0.3s;
+}
+
+#mosaf ul li a:hover{
+
+    transition: 0.3s;
+    color: hsl(23, 91%, 60%);
+}
+
+
+#driver ul li a{
+    transition: 0.3s;
+}
+
+#driver ul li a:hover{
+
+    transition: 0.3s;
+    color: hsl(23, 91%, 60%);
+}
+
+
+
+
+#business ul li a{
+    transition: 0.3s;
+}
+
+#business ul li a:hover{
+
+    transition: 0.3s;
+    color: hsl(23, 91%, 60%);
+}
